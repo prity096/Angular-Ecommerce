@@ -1,0 +1,56 @@
+<div class="seller-auth">
+    <div *ngIf="!showLogin" class="signup-form">
+        <form #sellerSignUp= "ngForm" (ngSubmit)="signUp(sellerSignUp.value)" action="/examples/actions/confirmation.php" method="post">
+            <h2>Register</h2>
+            <p class="hint-text">Create your account. It's free and only takes a minute.</p>
+           
+                
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name" ngModel
+                            placeholder="Name" required="required"></div>
+              
+            
+            <div class="form-group">
+                <input type="email" class="form-control" name="email" ngModel placeholder="Email" required="required">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" name="password" ngModel placeholder="Password" required="required">
+            </div>
+    
+            <div class="form-group">
+                <label class="checkbox-inline"><input type="checkbox" required="required"> I accept the <a
+                        href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a></label>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-success btn-lg btn-block">Register Now</button>
+                <a (click)="openLogin()" >Already have an account? Click to Login </a>
+            </div>
+        </form>
+     </div>
+  
+
+    <div *ngIf="showLogin" class="signup-form">
+        <form #sellerLogIn= "ngForm" (ngSubmit)=" logIn(sellerLogIn.value)" action="/examples/actions/confirmation.php" method="post">
+            <h2>LogIn</h2>
+            <p>{{authError}}</p>
+           
+            
+            <div class="form-group">
+                <input type="email" class="form-control" name="email" ngModel placeholder="Email" required="required">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" name="password" ngModel placeholder="Password" required="required">
+            </div>
+    
+           
+            <div class="form-group">
+                <button type="submit" class="btn btn-success btn-lg btn-block">Login</button>
+                <a (click)="openSignUp()">Don't have an account? Click to Register </a>
+           
+            </div>
+
+        </form> 
+        
+    </div>
+
+</div>

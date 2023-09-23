@@ -1,0 +1,106 @@
+{
+  "seller": [
+    {
+      "name": "Prity",
+      "email": "prity@gmail,com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "name": "Sam",
+      "email": "sam@gmail,com",
+      "password": "abc@123",
+      "id": 2
+    },
+    {
+      "name": "ria",
+      "email": "ria@gmail.com",
+      "password": "abc@123",
+      "id": 3
+    },
+    {
+      "name": "street",
+      "email": "street@gmail.com",
+      "password": "abc@123",
+      "id": 4
+    },
+    {
+      "name": "soni",
+      "email": "m.rushmila@gmail.com",
+      "password": "abc@123",
+      "id": 5
+    },
+    {
+      "name": "soni",
+      "email": "soni@gmail.com",
+      "password": "abc@123",
+      "id": 6
+    }
+  ],
+  "products": [
+    {
+      "name": "Samsung M21",
+      "price": "30000",
+      "category": "Mobiles",
+      "description": "New at market",
+      "image": "https://www.mobilebazar.com.bd/assets/img/Samsung-Galaxy-M21-2021-Official-Image--500x500.webp",
+      "id": "12456"
+    },
+    {
+      "name": "Iphone 13",
+      "price": "100000",
+      "category": "Mobiles",
+      "description": "Latest Version",
+      "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-13-01.jpg",
+      "id": "u1u6fen"
+    },
+    {
+      "name": "HP Probook ",
+      "price": "75000",
+      "category": "Laptops",
+      "description": "For student and professionals",
+      "image": "https://hk-media.apjonlinecdn.com/catalog/product/p/r/probook_440_g8_2_.png",
+      "id": "modgAxo"
+    },
+    {
+      "name": "MacBook",
+      "price": "150000",
+      "category": "Laptops",
+      "description": "For student and professionals",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFjYm9vayUyMHByb3xlbnwwfHwwfHw%3D&w=1000&q=80",
+      "id": "U_MV2Yl"
+    },
+    {
+      "name": "Samsung S22ultra",
+      "price": "120000",
+      "category": "Mobiles",
+      "description": "The attractive one",
+      "image": "https://cdn.dxomark.com/wp-content/uploads/medias/post-106688/Samsung-Galaxy-S22-Ultra-featured-image-packshot-review-Recovered.jpg",
+      "id": "5v89XqY"
+    },
+    {
+      "name": "Dell ",
+      "price": "85000",
+      "category": "Laptops",
+      "description": "For student and professionals",
+      "image": "https://images.startups.co.uk/wp-content/uploads/2018/08/31104036/rsz_best_dell_laptop_2018-1.jpg?width=709&height=460&fit=crop",
+      "id": "PW3d7l5"
+    },
+    {
+      "name": "Realme",
+      "price": "40000",
+      "category": "Mobiles",
+      "description": "New Arrival",
+      "image": "https://image01.realme.net/general/20230109/1673256478717.png",
+      "id": "JXDuxb9"
+    },
+    {
+      "name": "Asus-VivoBook",
+      "price": "85000",
+      "category": "Laptops",
+      "description": "For student and professionals",
+      "image": "https://www.shopz.com.bd/wp-content/uploads/2021/09/ASUS-VIVOBOOK-X512JP-BQ394T-10TH-GEN-CORE-i5-PEACOCK-BLUE-Laptop-2.jpg",
+      "id": "uCjmHZj"
+    }
+  ]
+}

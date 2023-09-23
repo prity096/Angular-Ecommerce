@@ -1,0 +1,41 @@
+<div class="add-product-form">
+
+
+     <form #addProduct= "ngForm" (ngSubmit)="submit(addProduct.value)" action="/examples/actions/confirmation.php" method="post">
+         <h2>Update Products</h2>
+         <p class="message-p">{{productMessage}}</p>
+ 
+        
+        
+             
+                 <div class="form-group">
+                     <input type="text" class="form-control" name="name" ngModel
+                         placeholder="Product Name" required="required" ngModel="{{productData?.name}}"></div>
+           
+         
+   
+         <div class="form-group">
+             <input type="price" class="form-control" name="price" ngModel placeholder="Price" required="required" ngModel="{{productData?.price}}">
+         </div>
+         <div class="form-group">
+             <input type="category" class="form-control" name="category" ngModel placeholder="Product Category" required="required" ngModel="{{productData?.category}}">
+         </div>
+         <div class="form-group">
+             <input type="description" class="form-control" name="description" ngModel placeholder="Product Description" required="required" ngModel="{{productData?.description}}">
+         </div>
+         <div class="form-group">
+             <input type="text" class="form-control" name="image" ngModel placeholder="Product Image" required="required" ngModel="{{productData?.image}}">
+         </div>
+ 
+ 
+     
+         <div class="form-group">
+             <button type="submit" class="btn btn-success btn-lg btn-block">Update Product</button>
+        
+             
+          
+         </div>
+     </form>
+ 
+ 
+ </div>

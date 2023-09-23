@@ -1,0 +1,106 @@
+body {
+    color: #fff;
+    background: #63738a;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-control {
+    height: 50px;
+    box-shadow: none;
+    color: #5095ba;
+}
+
+.form-control:focus {
+    border-color: #5e6bb9;
+}
+
+.form-control,
+.btn {
+    border-radius: 3px;
+}
+
+.add-product-form {
+    width: 800px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.add-product-form h2 {
+    color: #636363;
+    margin: 0 0 15px;
+    position: relative;
+    text-align: center;
+}
+
+.add-product-form h2:before,
+.add-product-form h2:after {
+    content: "";
+    height: 2px;
+    width: 30%;
+    background: #d4d4d4;
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+}
+
+.add-product-form h2:before {
+    left: 0;
+}
+
+.add-product-form h2:after {
+    right: 0;
+}
+
+.add-product-form .hint-text {
+    color: #281818;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.add-product-form form {
+    color: #999;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    background: #f2f3f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+.add-product-form .form-group {
+    margin-bottom: 20px;
+}
+
+
+
+.add-product-form .btn {
+    font-size: 16px;
+    font-weight: bold;
+    min-width: 140px;
+    outline: none !important;
+}
+
+.add-product-form .row div:first-child {
+    padding-right: 10px;
+}
+
+.add-product-form .row div:last-child {
+    padding-left: 10px;
+}
+
+.add-product-form a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.add-product-form a:hover {
+    text-decoration: none;
+}
+
+.add-product-form form a {
+    color: #647dd8;
+    text-decoration: none;
+}
+
+.add-product-form form a:hover {
+    text-decoration: underline;
+}
